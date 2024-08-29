@@ -25,8 +25,8 @@ function App() {
   };
 
   const handlePageNext = () => {
-    setPage((prevPage) => {
-      let newPage = prevPage + 1;
+    setPage((nextPage) => {
+      let newPage = nextPage + 1;
       if (newPage > Math.floor((data.length - 1) / itemsPerPage)) {
         newPage = 0;
       }

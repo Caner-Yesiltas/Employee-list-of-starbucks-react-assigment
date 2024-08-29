@@ -1,6 +1,6 @@
 import React from "react";
 
-const List = ({employeeData}) => {
+const List = ({ employeeData }) => {
   return (
     <>
       {employeeData.map(({ image, name, age, email }) => (
